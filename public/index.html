@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web App Demo: Age Calculator & Mini Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header><h1>Web App Demo</h1></header>
+<main>
+  <section id="age-calculator">
+    <h2>Age Calculator</h2>
+    <label for="birthdate">Select your birth date:</label>
+    <input type="date" id="birthdate" />
+    <button id="calc-age-btn" class="btn" disabled>Calculate Age</button>
+    <div id="age-result"></div>
+  </section>
+
+  <section id="shop">
+    <h2>Mini Store</h2>
+    <div class="products" id="product-list"></div>
+    <div id="cart">
+      <h3>Your Cart</h3>
+      <ul id="cart-items"></ul>
+      <div id="cart-total">Total: $0.00</div>
+      <button id="checkout-btn" class="btn" disabled>Checkout</button>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

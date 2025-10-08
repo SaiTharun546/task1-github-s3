@@ -1,0 +1,16 @@
+{
+  "name": "task1-vuejs",
+  "version": "1.0.0",
+  "description": "Express app serving static UI for ECS Fargate demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
