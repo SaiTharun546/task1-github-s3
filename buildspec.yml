@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Nothing to install"
+  build:
+    commands:
+      - echo "Nothing to build"
+
+artifacts:
+  files:
+    - '**/*'           # pick up .html, .css, .js, etc.
+  base-directory: '.'  # root of your repo
