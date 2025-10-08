@@ -2,7 +2,7 @@ version: 0.2
 env:
   variables:
     REPOSITORY_URI: "884038419944.dkr.ecr.eu-west-1.amazonaws.com/ecs-fargate-demo"
-    IMAGE_TAG: "$CODEBUILD_RESOLVED_SOURCE_VERSION"
+    IMAGE_TAG: "latest"
 
 phases:
   pre_build:
